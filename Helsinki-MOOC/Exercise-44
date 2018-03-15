@@ -1,0 +1,27 @@
+
+public class Driver
+{
+    public static int least(int number1, int number2) {
+        
+        int least = number1;
+        
+        if(number1 > number2) 
+        {
+           least = number2;
+        }
+        else if(number1 < number2)
+        {
+            least = number1;
+        } 
+        
+        return least;
+            
+
+        // method needs a return in the end
+    }
+
+    public static void main(String[] args) {
+        int answer =  least(2, 1);
+        System.out.println("Least: " + answer);
+    }
+}
